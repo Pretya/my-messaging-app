@@ -8,8 +8,10 @@ function MessageInput(props) {
   }
 
   function handleSendMessage() {
-    props.onSendMessage(message);
-    setMessage('');
+    if (message.trim() !== '') {
+      props.onSendMessage(message);
+      setMessage('');
+    }
   }
 
   return (
