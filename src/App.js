@@ -8,7 +8,7 @@ function App() {
 
   const profiles = [
     { id: 1, name: 'Tom', icon: '/img/tom.jpg' },
-    { id: 2, name: 'Jerry', icon: '/img/jerry.png' },
+    { id: 2, name: 'Jerry', icon: '/img/jerry.png' }, 
     { id: 3, name: 'Alisa', icon: '/img/alisa.png' },
     { id: 4, name: 'Bob', icon: '/img/bob.jpg' },
     { id: 5, name: 'Samanta', icon: '/img/samanta.jpg' },
